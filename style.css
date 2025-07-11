@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#mapid {
+    height: 600px;
+    width: 100%;
+    max-width: 1000px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.info.legend {
+    background: white;
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info.legend i {
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.9; /* Increased opacity for better visibility */
+    display: inline-block; /* Ensure width/height apply */
+}
+
+.info.city-legend {
+    background: white;
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.info.city-legend i {
+    width: 10px; /* Default size, will be overridden by inline style */
+    height: 10px; /* Default size, will be overridden by inline style */
+    margin-right: 5px;
+    opacity: 1;
+    display: inline-block;
+    border: 1px solid #000; /* Border for visibility */
+    vertical-align: middle; /* Align circle with text */
+    border-radius: 50%; /* Make it a circle */
+}
+
+.info.city-legend {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically align items */
+    flex-direction: column; /* Stack items vertically */
+}
