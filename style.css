@@ -19,6 +19,20 @@ h1 {
     border-radius: 8px;
 }
 
+#controls {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 8px;
+}
+
+#dataset-select {
+    margin-left: 8px;
+    padding: 4px 6px;
+}
+
 .info.legend {
     background: white;
     padding: 6px 8px;

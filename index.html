@@ -9,6 +9,13 @@
 </head>
 <body>
     <h1>Celestia Node Distribution Heatmap</h1>
+    <div id="controls" style="margin-bottom:10px;">
+        <label for="dataset-select">Dataset:</label>
+        <select id="dataset-select">
+            <option value="mainnet">Mainnet</option>
+            <option value="mainnet-testnet">Mainnet + Testnet</option>
+        </select>
+    </div>
     <div id="mapid"></div>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
